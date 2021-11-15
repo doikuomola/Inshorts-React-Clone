@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+
+![alt text](https://github.com/doikuomola/Inshorts-React-Clone/blob/master/Screenshot%202021-11-15%20153525.jpg?raw=true)
+
+![alt text](https://github.com/doikuomola/Inshorts-React-Clone/blob/master/Screenshot%202021-11-15%20153558.jpg?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
