@@ -12,9 +12,11 @@ function App() {
   const [newsResults, setNewsResults] = useState()
   const [loadMore, setLoadMore] = useState(20)
 
+
+
   const newsApi = async () => {
     try {
-      const news = await axios.get(`https://newsapi.org/v2/top-headlines?country=ng&category=${category}&apiKey=${apikey}&pageSize=${loadMore}`)
+      const news = await axios.get(`https://newsapi.org/v2/top-headlines?country=ng&category=${category}&apiKey=${process.env.REACT_APP_API_KEY}&pageSize=${loadMore}`)
       setNewsArray(news.data.articles);
       setNewsResults(news.data.totalResults)
     } catch (error) {
